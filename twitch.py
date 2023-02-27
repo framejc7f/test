@@ -26,7 +26,7 @@ def Twitch_sugnup(url):
         time.sleep(2)
         driver.execute_script("window.open('https://temp-mail.org/en/');")
         driver.switch_to.window(driver.window_handles[1])
-        time.sleep(5)
+        time.sleep(10)
         while 1:
             pass
 
