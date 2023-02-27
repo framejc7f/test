@@ -1,7 +1,7 @@
 from password_generator import PasswordGenerator
 import randomtimestamp
 import datetime
-
+from nickname_generator import generate
 
 
 def getPassword():
@@ -24,3 +24,7 @@ def getDate():
 
     # print(f'{year=}\n{month=}({monthList[month]})\n{day=}')
     return (monthList[month], day, year)
+
+def getNickname()-> str:
+    return generate()
+
