@@ -2,6 +2,13 @@ package mymath
 
 import "math"
 
+const E = math.E
+const Ln10 = math.Ln10
+const Ln2 = math.Ln2
+const Log10E = math.Log10E
+const Log2E = math.Log2E
+const Pi = math.Pi
+
 func Abs(x float64) float64 {
 	return math.Abs(x)
 }
